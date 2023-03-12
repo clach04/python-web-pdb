@@ -51,7 +51,7 @@ to start debugging:
 The ``set_trace()`` call will suspend your program and open a web-UI at the default port ``5555``
 (port value can be changed). Enter in your browser's address bar:
 ``http://<your Python machine hostname or IP>:5555``,
-for example ``http://monty-python:5555``,
+for example ``http://monty-python:5555``, or `default_localhost_url`_
 and you should see the web-UI like the one on the preceding screenshot.
 Now you can use all PDB commands and features. Additional **Current file**, **Globals**
 and **Locals** information boxes help you better track your program runtime state.
@@ -124,3 +124,4 @@ The debugger icon made by `Freepik`_ from `www.flaticon.com`_ is licensed by `CC
 .. _www.flaticon.com: http://www.flaticon.com
 .. _CC 3.0 BY: http://creativecommons.org/licenses/by/3.0/
 .. _breakpoint(): https://docs.python.org/3/library/functions.html#breakpoint
+.. _default_localhost_url: http://localhost:5555/
